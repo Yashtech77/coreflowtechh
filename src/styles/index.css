@@ -1,0 +1,96 @@
+@import "tailwindcss";
+@import "./theme.css";
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-background: var(--bg);
+  --color-surface: var(--surface);
+  --color-muted: var(--muted);
+  --color-foreground: var(--text);
+  --color-border: var(--border);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-padding-top: 5.5rem;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  color: var(--text);
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--accent) 12%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--accent) 12%, transparent) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 0%, black, transparent);
+}
+
+.orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(64px);
+  pointer-events: none;
+}
+
+.glass {
+  background: color-mix(in srgb, var(--surface) 78%, transparent);
+  backdrop-filter: blur(18px);
+  border: 1px solid var(--border);
+}
+
+.glow-border {
+  box-shadow: var(--glow);
+}
+
+.marquee-track {
+  display: flex;
+  gap: 2.5rem;
+  width: max-content;
+  animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.swiper-pagination-bullet {
+  background: var(--muted) !important;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--accent) !important;
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}

@@ -1,0 +1,14 @@
+:root,
+[data-theme="light"] {
+  --primary: #0f766e;
+  --secondary: #1e3a8a;
+  --accent: #0e7490;
+  --bg: #f4f7fb;
+  --surface: #ffffff;
+  --muted: #475569;
+  --text: #0f172a;
+  --border: rgba(15, 118, 110, 0.18);
+  --glow: 0 0 48px rgba(14, 116, 144, 0.12);
+  --hero-overlay: linear-gradient(180deg, rgba(244, 247, 251, 0.2), rgba(244, 247, 251, 0.92));
+  color-scheme: light;
+}
