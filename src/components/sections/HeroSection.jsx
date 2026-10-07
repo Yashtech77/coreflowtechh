@@ -20,7 +20,7 @@ export default function HeroSection() {
 
       <Container className="relative grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
         <FadeIn>
-          <Badge className="max-w-full whitespace-normal leading-5">Authorized KAYTUS Distributor · India</Badge>
+          <Badge className="max-w-full whitespace-normal leading-5">Authorized KAYTUS, CxTEK & AFS Distributor · India</Badge>
           <h1 className="mt-5 text-[1.75rem] font-semibold leading-tight tracking-tight text-foreground sm:text-4xl md:text-5xl lg:text-6xl">
             Data centre and IT infrastructure for <span className="text-accent">Indian</span> enterprises
           </h1>
@@ -41,7 +41,7 @@ export default function HeroSection() {
               <Network className="h-4 w-4 text-accent" /> IT infrastructure
             </span>
             <span className="inline-flex items-center gap-2">
-              <Cpu className="h-4 w-4 text-accent" /> Authorized KAYTUS
+              <Cpu className="h-4 w-4 text-accent" /> Authorized portfolios
             </span>
           </div>
         </FadeIn>
@@ -59,7 +59,7 @@ function HeroRack() {
     <div className="glass glow-border relative overflow-hidden rounded-3xl p-6">
       <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-accent">What we deliver in India</p>
       <div className="space-y-2">
-        {["DATA CENTRE BUILD", "IT INFRASTRUCTURE", "AUTHORIZED KAYTUS", "COMMISSIONING", "WARRANTY / AMC"].map(
+        {["DATA CENTRE BUILD", "IT INFRASTRUCTURE", "AUTHORIZED BRAND SUPPLY", "COMMISSIONING", "WARRANTY / AMC"].map(
           (row, i) => (
             <div
               key={row}
@@ -75,7 +75,7 @@ function HeroRack() {
       <div className="mt-6 grid grid-cols-3 gap-3 text-center">
         <Mini metric="DC" label="Solutions" />
         <Mini metric="IT" label="Infrastructure" />
-        <Mini metric="KAYTUS" label="Authorized" />
+        <Mini metric="3" label="Authorized brands" />
       </div>
     </div>
   );

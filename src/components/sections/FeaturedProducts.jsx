@@ -10,7 +10,7 @@ export default function FeaturedProducts() {
     <Section
       eyebrow="Portfolio"
       title="Featured Coreflowtech solutions"
-      subtitle="Data centre and IT infrastructure first, with authorized KAYTUS supply as an official line."
+      subtitle="Explore Coreflowtech solutions alongside authorized KAYTUS, CxTEK, and AFS products."
     >
       <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
         {featured.map(({ item, category }) => (

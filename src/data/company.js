@@ -3,20 +3,20 @@ export const company = {
   legalName: "Coreflowtech Private Limited",
   tagline: "Data centre solutions and IT infrastructure for India",
   description:
-    "Coreflowtech delivers data centre solutions and complete IT infrastructure across India. We are also an authorized KAYTUS distributor, supplying that official compute and storage range alongside our own DC and generic IT work.",
+    "Coreflowtech delivers data centre solutions and complete IT infrastructure across India. We are also an authorized distributor for KAYTUS, CxTEK, and AFS, supplying their official server, storage, network, and fibre connectivity ranges alongside our own AI software and DC work.",
   location: "India",
   stats: [
     { id: "dc", label: "Data centre solution areas", value: 5, suffix: "+" },
     { id: "infra", label: "IT infrastructure categories", value: 5, suffix: "+" },
     { id: "support", label: "Support coverage", value: 24, suffix: "/7" },
-    { id: "kaytus", label: "Authorized KAYTUS lines", value: 6, suffix: "+" },
+    { id: "authorized", label: "Authorized brand ranges", value: 3, suffix: "" },
   ],
   mission:
-    "To deliver dependable data centre and IT infrastructure across India, with authorized KAYTUS supply when customers need that official range.",
+    "To deliver dependable data centre and IT infrastructure across India, with authorized KAYTUS, CxTEK, and AFS supply when customers need those official ranges.",
   vision:
     "To be India's trusted infrastructure partner — from data halls and campus IT to authorized brand distribution.",
   story:
-    "Coreflowtech is an Indian data centre and IT infrastructure company. We design and deliver halls, power, cooling, and generic enterprise IT. We are also an authorized KAYTUS distributor in India, so customers can source that official portfolio through the same Coreflowtech team.",
+    "Coreflowtech is an Indian data centre and IT infrastructure company. We build AI software solutions and deliver halls, power, cooling, and enterprise IT. We are also an authorized KAYTUS, CxTEK, and AFS distributor in India, so customers can source those official portfolios through the same Coreflowtech team.",
 };
 
 export const values = [
@@ -40,8 +40,8 @@ export const values = [
   },
   {
     id: "authorized",
-    title: "Authorized KAYTUS distributor",
+    title: "Authorized KAYTUS, CxTEK & AFS distributor",
     description:
-      "We distribute the official KAYTUS portfolio in India, with genuine product lines and manufacturer-aligned supply.",
+      "We distribute the official KAYTUS, CxTEK, and AFS portfolios in India, with genuine product lines and manufacturer-aligned supply.",
   },
 ];

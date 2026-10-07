@@ -12,10 +12,11 @@ export const footerLinks = {
     { label: "Careers", path: "/contact" },
   ],
   solutions: [
+    { label: "AI software solutions", path: "/products/ai-software" },
     { label: "Data centre solutions", path: "/products/data-centre-solutions" },
-    { label: "IT infrastructure", path: "/products/it-infrastructure" },
     { label: "Authorized KAYTUS", path: "/products?group=kaytus" },
-    { label: "GPU & AI servers", path: "/products/gpu-compute" },
+    { label: "Authorized CxTEK", path: "/products?group=cxtek" },
+    { label: "Authorized AFS", path: "/products?group=afs" },
   ],
   services: [
     { label: "DC design & build", path: "/contact" },

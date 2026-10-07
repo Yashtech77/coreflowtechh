@@ -14,14 +14,14 @@ export default function About() {
     <>
       <Seo
         title="About us"
-        description="Coreflowtech delivers data centre solutions and IT infrastructure across India, and is an authorized KAYTUS distributor."
+        description="Coreflowtech delivers data centre solutions and IT infrastructure across India, and is an authorized KAYTUS, CxTEK, and AFS distributor."
         path="/about"
       />
       <PageHero
         eyebrow="About us"
         title="Data centre and IT infrastructure for India."
         subtitle={company.story}
-        badges={["Data centre", "IT infrastructure", "Authorized KAYTUS"]}
+        badges={["Data centre", "IT infrastructure", "Authorized KAYTUS", "Authorized CxTEK", "Authorized AFS"]}
       />
       <StatsStrip />
 

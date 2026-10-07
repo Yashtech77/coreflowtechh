@@ -14,7 +14,7 @@ export default function CategorySlider() {
     <Section
       eyebrow="Catalogue"
       title="Coreflowtech solutions"
-      subtitle="Data centre, generic IT infrastructure, and authorized KAYTUS supply."
+      subtitle="Data centre, generic IT infrastructure, and authorized KAYTUS, CxTEK, and AFS supply."
     >
       <Swiper
         modules={[Autoplay, Pagination]}

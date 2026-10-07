@@ -4,7 +4,7 @@ const SITE = "https://coreflowtech.in";
 
 export default function Seo({
   title,
-  description = "Coreflowtech delivers data centre solutions and IT infrastructure across India, and is an authorized KAYTUS distributor.",
+  description = "Coreflowtech delivers data centre solutions and IT infrastructure across India, and is an authorized KAYTUS, CxTEK, and AFS distributor.",
   path = "/",
 }) {
   const fullTitle = title ? `${title} | Coreflowtech` : "Coreflowtech | Data Centre & IT Infrastructure";

@@ -16,7 +16,7 @@ export default function CTASection() {
             Talk to Coreflowtech about your data centre or IT requirement
           </h2>
           <p className="relative mx-auto mt-4 max-w-xl text-muted">
-            Share your data centre scope, IT infrastructure list, or authorized KAYTUS requirement. We will come back with a clear India delivery plan.
+            Share your data centre scope, IT infrastructure list, or authorized KAYTUS / CxTEK / AFS requirement. We will come back with a clear India delivery plan.
           </p>
           <div className="relative mt-8 flex justify-center">
             <Button to="/contact">

@@ -32,13 +32,13 @@ export const services = [
     name: "Lifecycle & Expansion",
     short: "Capacity adds, refreshes, and documented as-built records.",
     description:
-      "Expand DC, IT infra, or authorized KAYTUS supply without stranded power, cooling, or undocumented racks.",
+      "Expand DC, IT infra, or authorized KAYTUS / CxTEK / AFS supply without stranded power, cooling, or undocumented racks.",
   },
   {
-    slug: "kaytus-supply",
-    name: "Authorized KAYTUS Supply",
-    short: "Official KAYTUS product supply, BOM, and configuration for Indian sites.",
+    slug: "authorized-supply",
+    name: "Authorized KAYTUS, CxTEK & AFS Supply",
+    short: "Official KAYTUS, CxTEK, and AFS product supply, BOM, and configuration for Indian sites.",
     description:
-      "Official KAYTUS servers, storage, networking, and cooling — quoted, configured, and delivered in India.",
+      "Official KAYTUS servers, storage, and cooling, CxTEK networking, and AFS fibre connectivity — quoted, configured, and delivered in India.",
   },
 ];

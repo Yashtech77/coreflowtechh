@@ -5,9 +5,9 @@ export const faqs = [
       "Coreflowtech delivers data centre solutions and general IT infrastructure across India — design, build, supply, deployment, and AMC.",
   },
   {
-    question: "Are you an authorized KAYTUS distributor?",
+    question: "Are you an authorized KAYTUS, CxTEK, and AFS distributor?",
     answer:
-      "Yes. Alongside our own DC and IT work, Coreflowtech is an authorized KAYTUS distributor in India. That official range is supplied through this authorization.",
+      "Yes. Alongside our own AI software and DC work, Coreflowtech is an authorized distributor in India for KAYTUS (kaytus.com), CxTEK (cxtek.in), and Advanced Fiber Solutions (afsipl.com).",
   },
   {
     question: "Can you design and build a data centre?",
@@ -22,7 +22,7 @@ export const faqs = [
   {
     question: "Do you provide warranty and AMC in India?",
     answer:
-      "Yes. We offer local AMC, spares, and on-site support, and we coordinate manufacturer warranty for authorized KAYTUS products.",
+      "Yes. We offer local AMC, spares, and on-site support, and we coordinate manufacturer warranty for authorized KAYTUS, CxTEK, and AFS products.",
   },
   {
     question: "Where do you deliver?",

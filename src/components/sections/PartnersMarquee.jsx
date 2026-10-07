@@ -8,7 +8,7 @@ export default function PartnersMarquee() {
     <section className="border-y border-border py-10">
       <Container>
         <p className="mb-6 text-center text-xs font-semibold uppercase tracking-[0.22em] text-muted">
-          Data centre solutions, IT infrastructure, and authorized KAYTUS supply
+          Data centre solutions, IT infrastructure, and authorized KAYTUS, CxTEK, and AFS supply
         </p>
         <div className="overflow-hidden">
           <div className="marquee-track">

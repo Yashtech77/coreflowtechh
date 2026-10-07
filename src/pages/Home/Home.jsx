@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Seo
         title="Data Centre & IT Infrastructure"
-        description="Coreflowtech delivers data centre solutions and IT infrastructure across India, and is an authorized KAYTUS distributor."
+        description="Coreflowtech delivers data centre solutions and IT infrastructure across India, and is an authorized KAYTUS, CxTEK, and AFS distributor."
         path="/"
       />
       <HeroSection />

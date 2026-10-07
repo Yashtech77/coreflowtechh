@@ -1,16 +1,21 @@
 import { useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { getCategoriesByGroup } from "../../data/products";
 import Button from "../ui/Button";
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
+  const [params] = useSearchParams();
   const {
     register,
     handleSubmit,
     reset,
     formState: { errors, isSubmitting },
-  } = useForm();
+  } = useForm({ defaultValues: {
+    interest: params.get("interest") || "",
+    message: params.get("product") ? `I would like a quote for ${params.get("product")}.\n\nQuantity / configuration:\nDeployment location:\n` : "",
+  } });
 
   const onSubmit = async (data) => {
     await new Promise((resolve) => setTimeout(resolve, 600));
@@ -71,7 +76,7 @@ export default function ContactForm() {
         <textarea
           rows={5}
           className={inputClass}
-          placeholder="Data centre scope, IT infrastructure list, or authorized KAYTUS requirement"
+          placeholder="Data centre scope, IT infrastructure list, or authorized KAYTUS / CxTEK / AFS requirement"
           {...register("message", {
             required: "Tell us about the requirement",
             minLength: { value: 8, message: "Please add a bit more detail" },

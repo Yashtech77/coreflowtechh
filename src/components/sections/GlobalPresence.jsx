@@ -7,13 +7,13 @@ export default function GlobalPresence() {
       id="presence"
       eyebrow="India presence"
       title="Based in India. Delivered across the country."
-      subtitle="Data centre projects, IT infrastructure, and authorized KAYTUS support nationwide."
+      subtitle="Data centre projects, IT infrastructure, and authorized KAYTUS, CxTEK, and AFS support nationwide."
     >
       <FadeIn>
         <div className="glass relative overflow-hidden rounded-3xl p-8 sm:p-12">
           <WorldMarks />
           <div className="relative grid gap-6 sm:grid-cols-3">
-            <PresenceStat label="Authorization" value="Authorized KAYTUS distributor, India" />
+            <PresenceStat label="Authorization" value="Authorized KAYTUS, CxTEK & AFS distributor, India" />
             <PresenceStat label="Coverage" value="Pan-India delivery & support" />
             <PresenceStat label="Focus" value="Data centre & IT infrastructure" />
           </div>

@@ -7,7 +7,7 @@ export default function WhyUs() {
     <Section
       eyebrow="Why Coreflowtech"
       title="India delivery, DC build, and complete IT"
-      subtitle="Coreflowtech delivers data centres and enterprise IT across India, with authorized KAYTUS supply as an official line."
+      subtitle="Coreflowtech delivers data centres and enterprise IT across India, with authorized KAYTUS, CxTEK, and AFS supply as an official line."
     >
       <div className="grid gap-5 md:grid-cols-2">
         {values.map((value) => (

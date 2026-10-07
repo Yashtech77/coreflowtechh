@@ -16,7 +16,17 @@ const pillars = [
   {
     icon: Cpu,
     title: "Authorized KAYTUS",
-    body: "Official KAYTUS GPU/AI servers, enterprise servers, storage, networking, cooling, and management — distributed in India by Coreflowtech.",
+    body: "Official KAYTUS servers, storage, MotusAI, KSManage, and liquid cooling — distributed in India by Coreflowtech.",
+  },
+  {
+    icon: Network,
+    title: "Authorized CxTEK",
+    body: "Official CxTEK switches, servers, NAS, routers, and Wi-Fi 6 — distributed in India by Coreflowtech.",
+  },
+  {
+    icon: Network,
+    title: "Authorized AFS",
+    body: "Advanced Fiber Solutions enclosures, cable assemblies, adapters, attenuators, FTTH products, and splitters — distributed in India by Coreflowtech.",
   },
 ];
 
@@ -25,9 +35,9 @@ export default function AIFactoryOverview() {
     <Section
       eyebrow="What we do"
       title="What Coreflowtech delivers"
-      subtitle="Data centre solutions and complete IT infrastructure for India, plus authorized KAYTUS supply when you need that official range."
+      subtitle="Data centre solutions and complete IT infrastructure for India, plus authorized KAYTUS, CxTEK, and AFS supply when you need that official range."
     >
-      <div className="grid gap-5 md:grid-cols-3">
+      <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
         {pillars.map((pillar, index) => (
           <FadeIn key={pillar.title} delay={index * 0.08}>
             <article className="glass flex h-full gap-4 rounded-2xl p-6">

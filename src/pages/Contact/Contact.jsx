@@ -14,13 +14,13 @@ export default function Contact() {
     <>
       <Seo
         title="Contact us"
-        description="Talk to Coreflowtech about data centre solutions, IT infrastructure, or authorized KAYTUS supply in India."
+        description="Talk to Coreflowtech about data centre solutions, IT infrastructure, or authorized KAYTUS / CxTEK / AFS supply in India."
         path="/contact"
       />
       <PageHero
         eyebrow="Contact"
         title="Talk to Coreflowtech"
-        subtitle="Share your data centre scope, IT infrastructure list, or authorized KAYTUS requirement. We will come back with a clear India delivery plan."
+        subtitle="Share your data centre scope, IT infrastructure list, or authorized KAYTUS / CxTEK / AFS requirement. We will come back with a clear India delivery plan."
       />
 
       <section className="py-16">
@@ -30,13 +30,13 @@ export default function Contact() {
             <div className="flex gap-3">
               <ShieldCheck className="mt-0.5 h-6 w-6 shrink-0 text-accent" />
               <div>
-                <h2 className="text-xl font-semibold text-foreground">Authorized KAYTUS distributor in India</h2>
+                <h2 className="text-xl font-semibold text-foreground">Authorized KAYTUS, CxTEK & AFS distributor in India</h2>
                 <p className="mt-2 text-sm leading-relaxed text-muted">
-                  Coreflowtech supplies the official KAYTUS compute and storage range in India, alongside data centre solutions and generic IT infrastructure.
+                  Coreflowtech supplies the official KAYTUS, CxTEK, and AFS ranges in India, alongside our own AI software and data centre solutions.
                 </p>
               </div>
             </div>
-            <Button to="/products?group=kaytus" variant="outline" className="mt-2 w-full sm:w-auto">
+            <Button to="/products" variant="outline" className="mt-2 w-full sm:w-auto">
               View authorized portfolio
             </Button>
           </article>

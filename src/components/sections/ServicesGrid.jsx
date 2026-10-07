@@ -9,7 +9,7 @@ export default function ServicesGrid() {
       id="services"
       eyebrow="Services"
       title="From design and supply to on-site support"
-      subtitle="Data centre build, IT deployment, commissioning, AMC, and authorized KAYTUS supply across India."
+      subtitle="Data centre build, IT deployment, commissioning, AMC, and authorized KAYTUS, CxTEK, and AFS supply across India."
     >
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((service) => (

@@ -17,11 +17,21 @@ export const timeline = [
   {
     year: "KAYTUS",
     title: "Authorized KAYTUS distributor",
-    description: "Appointed to distribute the official KAYTUS server, storage, networking, and cooling portfolio in India.",
+    description: "Appointed to distribute the official KAYTUS server, storage, AI platform, and liquid cooling portfolio in India.",
+  },
+  {
+    year: "CxTEK",
+    title: "Authorized CxTEK distributor",
+    description: "Appointed to distribute the official CxTEK switching, server, storage, routing, and wireless portfolio in India.",
+  },
+  {
+    year: "AFS",
+    title: "Authorized Advanced Fiber Solutions distributor",
+    description: "AFS fibre enclosures, connectivity components, FTTH products, and splitters join the portfolio supplied in India.",
   },
   {
     year: "Today",
     title: "India-wide delivery",
-    description: "Data centre projects, IT infrastructure, and authorized KAYTUS supply supported across India.",
+    description: "Data centre projects, IT infrastructure, and authorized KAYTUS, CxTEK, and AFS supply supported across India.",
   },
 ];
