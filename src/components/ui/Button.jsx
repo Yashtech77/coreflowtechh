@@ -3,7 +3,7 @@ import { cn } from "../../utils/cn";
 
 const variants = {
   primary:
-    "bg-primary text-white shadow-[0_0_0_1px_color-mix(in_srgb,var(--accent)_30%,transparent)] hover:brightness-110",
+    "bg-primary text-white hover:bg-secondary",
   outline:
     "border border-border bg-transparent text-foreground hover:border-accent hover:text-accent",
   ghost: "text-foreground hover:bg-surface hover:text-accent",
@@ -19,7 +19,7 @@ export default function Button({
   ...props
 }) {
   const classes = cn(
-    "inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold tracking-wide transition duration-300 disabled:pointer-events-none disabled:opacity-60",
+    "inline-flex cursor-pointer items-center justify-center gap-2 rounded-md px-5 py-2.5 text-sm font-semibold tracking-wide transition duration-200 disabled:pointer-events-none disabled:opacity-60",
     variants[variant],
     className
   );

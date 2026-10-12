@@ -1,5 +1,5 @@
 import { cn } from "../../utils/cn";
 
 export default function Container({ children, className }) {
-  return <div className={cn("mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8", className)}>{children}</div>;
+  return <div className={cn("mx-auto w-full max-w-[1520px] px-6 max-[767px]:px-4 max-[480px]:px-3", className)}>{children}</div>;
 }

@@ -1,0 +1,33 @@
+/* The rack schematic needs drawing-specific selectors. */
+.home-visual { display: flex; flex-direction: column; justify-content: space-between; min-height: 580px; padding: 24px; background: var(--primary); color: var(--surface); }
+.home-visual-top, .home-visual-bottom { display: flex; justify-content: space-between; gap: 15px; font-size: 10px; font-weight: 750; letter-spacing: .15em; }
+.home-visual-diagram { position: relative; display: grid; grid-template-columns: 90px 1fr 60px; align-items: center; gap: 14px; min-height: 380px; }
+.home-visual-axis { display: flex; flex-direction: column; align-items: center; gap: 20px; font-size: 9px; font-weight: 750; letter-spacing: .16em; line-height: 1.6; writing-mode: vertical-rl; transform: rotate(180deg); }
+.home-visual-axis i { display: block; width: 1px; height: 100px; background: var(--surface); opacity: .6; }
+.home-visual-racks { display: grid; gap: 8px; }
+.home-visual-rack { display: grid; grid-template-columns: 24px 1fr repeat(3, 6px); align-items: center; gap: 12px; min-height: 60px; padding: 0 18px; border: 1px solid color-mix(in srgb, var(--surface) 70%, var(--primary)); }
+.home-visual-rack span { font-size: 10px; opacity: .7; }
+.home-visual-rack strong { font-size: clamp(12px, 1.1vw, 17px); font-weight: 550; letter-spacing: .08em; }
+.home-visual-rack i { display: block; width: 6px; height: 6px; border: 1px solid var(--surface); border-radius: 50%; }
+.home-visual-rack:nth-child(2) i:first-of-type,
+.home-visual-rack:nth-child(4) i:nth-of-type(2) { background: var(--surface); }
+.home-visual-trace { display: flex; flex-direction: column; align-items: center; gap: 65px; height: 220px; border-left: 1px solid var(--surface); }
+.home-visual-trace i { display: block; width: 9px; height: 9px; margin-left: -1px; border: 1px solid var(--surface); border-radius: 50%; background: var(--primary); transform: translateX(-50%); }
+
+@media (max-width: 1100px) {
+  .home-visual { min-height: 500px; }
+  .home-visual-diagram { grid-template-columns: 45px 1fr 24px; gap: 8px; }
+  .home-visual-rack { grid-template-columns: 20px 1fr repeat(3, 5px); gap: 6px; padding: 0 10px; }
+}
+@media (max-width: 767px) {
+  .home-visual { min-height: 500px; }
+}
+@media (max-width: 480px) {
+  .home-visual { min-height: 390px; padding: 15px; }
+  .home-visual-diagram { grid-template-columns: 20px 1fr 14px; min-height: 300px; }
+  .home-visual-axis { font-size: 7px; }
+  .home-visual-rack { min-height: 48px; grid-template-columns: 16px 1fr repeat(3, 4px); gap: 5px; padding: 0 8px; }
+  .home-visual-rack strong { font-size: 11px; }
+  .home-visual-rack i { width: 4px; height: 4px; }
+  .home-visual-trace { height: 160px; gap: 40px; }
+}
