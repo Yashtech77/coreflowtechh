@@ -1,28 +1,19 @@
-import { ArrowRight } from "lucide-react";
+import ActionButton from "../ui/ActionButton";
+import { ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import Container from "../ui/Container";
-import Button from "../ui/Button";
 
 export default function CTASection() {
   return (
-    <section className="pb-20">
+    <section className="border-b border-border bg-primary py-[clamp(85px,8vw,135px)] text-white" aria-labelledby="home-cta-title">
       <Container>
-        <div className="glass glow-border relative overflow-hidden rounded-3xl px-6 py-12 text-center sm:px-12">
-          <div
-            className="orb left-1/2 top-0 h-40 w-40 -translate-x-1/2 opacity-50"
-            style={{ background: "color-mix(in srgb, var(--accent) 40%, transparent)" }}
-          />
-          <p className="relative text-xs font-semibold uppercase tracking-[0.22em] text-accent">Next step</p>
-          <h2 className="relative mx-auto mt-3 max-w-2xl text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-            Talk to Coreflowtech about your data centre or IT requirement
-          </h2>
-          <p className="relative mx-auto mt-4 max-w-xl text-muted">
-            Share your data centre scope, IT infrastructure list, or authorized KAYTUS / CxTEK / AFS requirement. We will come back with a clear India delivery plan.
-          </p>
-          <div className="relative mt-8 flex justify-center">
-            <Button to="/contact">
-              Start a conversation <ArrowRight className="h-4 w-4" />
-            </Button>
+        <p className="text-[11px] font-bold tracking-[.18em] uppercase">Next step / 11</p>
+        <div className="mt-9 flex items-end justify-between gap-15 max-[767px]:block">
+          <div>
+            <h2 className="max-w-[900px] text-[clamp(54px,7vw,116px)] leading-none font-medium tracking-[-.078em]" id="home-cta-title">Let’s build what comes next.</h2>
+            <p className="mt-6 max-w-[590px] text-base leading-[1.7] text-white/80">Share your data centre scope, IT infrastructure list, or authorized KAYTUS, CxTEK or AFS requirement. We’ll help define a clear delivery plan.</p>
           </div>
+          <ActionButton className="mt-9 min-w-[255px] shrink-0 max-[480px]:w-full" variant="inverse" to="/contact" icon={<ArrowUpRight size={22} aria-hidden="true" />}>Start a conversation</ActionButton>
         </div>
       </Container>
     </section>

@@ -2,9 +2,9 @@ export const themes = [
   {
     id: "light",
     name: "Light",
-    primary: "#0f766e",
-    accent: "#0891b2",
-    bg: "#f4f7fb",
+    primary: "#230b57",
+    accent: "#044e71",
+    bg: "#ffffff",
   },
 ];
 

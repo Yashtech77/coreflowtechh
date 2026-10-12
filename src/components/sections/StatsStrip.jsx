@@ -1,19 +1,16 @@
 import { company } from "../../data/company";
 import Container from "../ui/Container";
 import StatCard from "../cards/StatCard";
-import StaggerChildren, { StaggerItem } from "../animations/StaggerChildren";
 
 export default function StatsStrip() {
   return (
-    <section className="relative pb-8">
+    <section className="border-b border-border bg-white py-9" aria-label="Coreflowtech at a glance">
       <Container>
-        <StaggerChildren className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-4 max-[767px]:grid-cols-2">
           {company.stats.map((stat) => (
-            <StaggerItem key={stat.id}>
-              <StatCard stat={stat} />
-            </StaggerItem>
+            <StatCard key={stat.id} stat={stat} />
           ))}
-        </StaggerChildren>
+        </div>
       </Container>
     </section>
   );

@@ -1,14 +1,14 @@
 :root,
 [data-theme="light"] {
-  --primary: #0f766e;
-  --secondary: #1e3a8a;
-  --accent: #0e7490;
-  --bg: #f4f7fb;
+  --primary: #230b57;
+  --secondary: #044e71;
+  --accent: #044e71;
+  --bg: #ffffff;
   --surface: #ffffff;
-  --muted: #475569;
-  --text: #0f172a;
-  --border: rgba(15, 118, 110, 0.18);
-  --glow: 0 0 48px rgba(14, 116, 144, 0.12);
-  --hero-overlay: linear-gradient(180deg, rgba(244, 247, 251, 0.2), rgba(244, 247, 251, 0.92));
+  --muted: color-mix(in srgb, #230b57 68%, #ffffff);
+  --text: #230b57;
+  --border: color-mix(in srgb, #230b57 18%, #ffffff);
+  --glow: none;
+  --hero-overlay: linear-gradient(180deg, transparent, #ffffff);
   color-scheme: light;
 }
